@@ -1,0 +1,395 @@
+/* Этот файл стилей написан для журнала внутреннего учета */
+
+a {outline: none;}
+
+/*==================INDEX.PHP============================*/
+.index_error img,
+.index_error h1 {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_index {
+	width:25.64%; 
+	margin:2% auto 0 auto;
+}
+.content_index {
+	width:100%;
+	margin-top:2%;
+}
+.login,
+.pass {
+	width:25.64%;
+	margin:0 auto 5px auto;
+}
+.login input,
+.pass input {
+	width:96%;
+}
+.login input:focus,
+.pass input:focus {
+	border-color: rgba(114, 255, 2, 0.8);
+	outline: 0px none;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(114, 255, 2, 0.77);
+}
+.submit {
+	width:12.32%;
+	margin:0 auto 0 auto;
+}
+.submit input {
+	width:100%;
+}
+/*=======================================================*/
+header {
+	width: 100%;
+	height: 220px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+}
+
+.header-left {
+	-moz-box-flax: 0;
+	-webkit-box-flax: 0;
+	box-flax: 0;
+	width: 15em;
+	padding: 10px;
+}
+
+.header-right {
+	-moz-box-flax: 0;
+	-webkit-box-flax: 0;
+	box-flax: 0;
+	padding: 10px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.header-left {
+	
+}
+
+.logo {
+	display: block;
+	max-width: 100%;
+}
+
+.logo img {
+	width: 170px;
+}
+
+.welcom {
+	display: block;
+	width: 650px;
+	vertical-align: top;
+	font-size: 1.5em;
+	margin-left: 0px;
+}
+
+.multisearch {
+	margin-top: 10px;
+}
+
+.multisearch input {
+	width: 600px;
+	padding: 5px;
+	border: 1px solid #77C357;
+	border-radius: 7px 7px 7px 7px;
+}
+
+.multisearch input:focus {
+	border:1px solid #77C357;
+	box-shadow:0 0px 5px 0 #77C357;
+}
+
+.buttons {
+	margin: 0;
+}
+
+.buttons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.button {
+	display: inline-block;
+	background: blue;
+	border-radius: 7px;
+}
+
+.button a {
+	padding: 7px 20px 7px 20px;
+	color: #fff;
+	background: blue;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.navigation-left {
+	padding: 2.5px 10px 2.5px 15px;
+}
+
+.navigation-left:focus,
+.navigation-left:hover {
+	background: #d5ffc2;
+}
+
+.navigation-left a {
+	text-decoration: none;
+	color: #2b587a;
+}
+
+.sidebar-left {
+	width: 12%;
+	float: left;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.direktoram,
+.saits {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.direktoram ul,
+.saits ul {
+	list-style: none;
+	padding: 0;
+}
+
+.direktoram ul li,
+.saits ul li {
+	padding: 5px 5px 5px 10px;
+}
+
+.direktoram ul li a,
+.saits ul li a {
+	text-decoration: none;
+	color: #2b587a;
+}
+
+.direktoram ul li ul li:focus,
+.direktoram ul li ul li:hover,
+.saits ul li ul li :focus,
+.saits ul li ul li :hover {
+	background: #d5ffc2;
+}
+
+.saits {
+    border-bottom: none;
+}
+
+.sidebar_title{
+	margin-top: 10px;
+}
+
+.my_finansi {
+	border-bottom: 1px solid grey;
+}
+
+.my_finansi ul {
+	list-style: none;
+	padding: 0;
+}
+
+.my_finansi ul li {
+	padding: 5px 5px 5px 10px;
+}
+
+.my_finansi ul li a {
+	text-decoration: none;
+	color: #2b587a;
+}
+
+.my_finansi ul li ul li:focus,
+.my_finansi ul li ul li:hover {
+	background: #d5ffc2;
+}
+
+.my_dohod {
+	margin-bottom: 10px;
+}
+
+.partner {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid grey;
+}
+
+.bablo {
+	margin-bottom: 10px;
+}
+
+.content {
+	float: right;
+	width: 86%;
+}
+
+.content table {
+	
+}
+
+.numsrtanic a {
+	margin-left: 5px;
+}
+
+#background { 
+  left: 0; 
+  top: 0; 
+  position: absolute; 
+  background: #000; 
+  opacity: 0.7; 
+  z-index: 999; 
+  display: none; 
+  height: 100%; 
+  width: 100%; 
+} 
+ 
+.modal_window { 
+  display: none; 
+  z-index: 9999; 
+  border: 1px solid #444; 
+  background-color: #FEFEFE; 
+  border-radius: 10px; 
+  padding: 15px 20px; 
+  height: 250px; 
+  width: 450px; 
+}
+
+.user_menu {
+	padding: 5px;
+}
+
+.aktrab {
+	display: none;
+}
+#filds input {
+	display: inline-block;
+	max-width: 100px;
+	margin-left: 10px;
+}
+
+#filds input:first-child {
+	max-width: 220px;
+	margin-left: 0px;
+}
+
+.edit-form {
+	border: 1px solid rgba(117, 192, 0, 0.7);
+	border-radius: 0px 0px 7px 7px;
+	padding: 5px;
+	
+}
+
+footer {
+	width:100%;
+}
+
+.pagetitle,
+.popap {
+	margin: 0;
+}
+
+/*.popap div {
+	margin-bottom: 10px;
+	padding: 0px 10px;
+}
+
+.popap div div{
+	margin-bottom: 1px;
+	padding: 0;
+}*/
+
+.pagetitle div {
+	background: rgba(117, 192, 0, 0.7);
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.mperimetr {
+	margin: 0px;
+}
+.mtop10 {margin-top: 10px;}
+.mtop35 {margin-top: 35px;}
+.mtop55 {margin-top: 55px;}
+.mbottom10 {margin-bottom: 10px;}
+.max-width300 {
+	max-width: 300px;
+}
+.max-width450 {
+	max-width: 450px;
+}
+.max-width50 {
+	max-width: 50px;
+}
+.max-width100 {
+	max-width: 100px;
+}
+.pad0555 {
+	padding: 0 5px 5px 5px !important;
+}
+.gborder {
+	border: 1px solid rgba(117, 192, 0, 0.7);
+}
+
+.subtitle {
+	background: rgba(117, 192, 0, 0.7);
+	font-size: 1.2em;
+	color:#fff;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.thead-center th {
+	text-align: center;
+}
+
+.navbar-inverse {
+	background-color: rgba(117, 192, 0, 1);
+	border-color: rgba(117, 192, 0, 0.7);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #000;
+}
+/* Стили для заметки в статусах */
+.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+.bs-callout-warning {
+	background-color: #fcf8f2;
+	border-color: #f0ad4e;
+}
+.bs-callout h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.bs-callout-warning h4 {
+	color: #f0ad4e;
+}
+.bs-callout-danger {
+	background-color: #FDF7F7;
+	border-color: #D9534F;
+}
+.bs-callout-danger h4 {
+    color: #D9534F;
+}
+#result li:hover,
+#result li:focus {
+	cursor: pointer;
+	background: rgba(117, 192, 0, 0.35) none repeat scroll 0% 0%;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+	z-index: 0;
+}

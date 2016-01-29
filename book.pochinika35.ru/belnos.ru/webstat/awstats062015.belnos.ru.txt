@@ -1,0 +1,1222 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201506 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.belnos.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1989                
+POS_TIME 2663                
+POS_VISITOR 24028               
+POS_DAY 34124               
+POS_DOMAIN 3606                
+POS_LOGIN 3839                
+POS_ROBOT 3994                
+POS_WORMS 4793                
+POS_EMAILSENDER 4924                
+POS_EMAILRECEIVER 5067                
+POS_SESSION 34921               
+POS_SIDER 35128               
+POS_FILETYPES 5202                
+POS_DOWNLOADS 5324                
+POS_OS 5372                
+POS_BROWSER 5612                
+POS_SCREENSIZE 7078                
+POS_UNKNOWNREFERER 7152                
+POS_UNKNOWNREFERERBROWSER 8195                
+POS_ORIGIN 9060                
+POS_SEREFERRALS 9204                
+POS_PAGEREFS 9379                
+POS_SEARCHWORDS 13420               
+POS_KEYWORDS 13617               
+POS_MISC 2327                
+POS_ERRORS 13721               
+POS_CLUSTER 3695                
+POS_SIDER_404 13842               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150701000038 3960 1036861 12061614934341
+FirstTime 0
+LastTime 20150630221936
+LastUpdate 20150701000102 3960 0 3959 0 0
+TotalVisits 618                 
+TotalUnique 259                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 259                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 47 49 597149 2246 2257 1142080
+1 54 56 605159 1666 1701 847053
+2 43 45 590875 1307 1319 692610
+3 65 69 1161012 1199 1215 617511
+4 42 46 827788 1153 1171 597822
+5 36 40 1122679 1369 1403 721798
+6 37 39 131145 1655 1680 846854
+7 41 41 43581 2251 2282 1135764
+8 47 51 1139098 3231 3252 1623718
+9 23 31 2183655 6174 6202 3098698
+10 43 59 4362407 6613 6666 3305604
+11 39 47 2203752 7354 7403 3698065
+12 73 75 631717 6270 6294 3130221
+13 51 59 2220263 7114 7136 4044107
+14 52 56 1145812 6034 6051 3009901
+15 36 46 2745101 6282 6307 3143230
+16 46 52 1678235 7074 7110 4028189
+17 56 66 2761552 6144 6166 3087977
+18 32 38 1655066 4771 4790 2378753
+19 63 77 3853112 4392 4439 2199612
+20 57 63 1689104 4637 4658 2320009
+21 34 46 3274100 4678 4694 2345960
+22 35 43 2199186 4176 4194 2086133
+23 34 46 3015651 3209 3240 1631932
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1086 1240 41837199
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+googlebot 383 359533 20150630234418 0
+bot[\s_+:,\.\;\/\\-] 225 261693 20150630235112 0
+baiduspider 172 241923 20150630235956 0
+no_user_agent 103 138347 20150630100145 0
+yandex 23 21698 20150630195453 0
+msiecrawler 12 16884 20150622000351 0
+mail\.ru 9 8394 20150621230825 0
+crawl 8 8195 20150623044222 0
+python 7 3062 20150628115557 0
+ng\/1\. 4 5648 20150622054433 0
+powermarks 3 4236 20150625233244 0
+libwww 2 2889 20150615044653 0
+[\s_+:,\.\;\/\\-]bot 2 1862 20150604112857 0
+robot 1 946 20150627113347 0
+surveybot 4 3754 20150626032427 0
+scanner 1 1397 20150613165438 0
+wget 1 1397 20150607131916 0
+mj12bot 3 3822 20150625094722 0
+netcraft 2 1587 20150609025040 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 5 7284 0 0
+html 1081 1352778 0 0
+jpg 154 40477137 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 19
+linuxandroid 3
+winxp 376
+winlong 19
+win2000 56
+winvista 48
+win95 11
+winunknown 12
+win2003 34
+wince 5
+unix 5
+winnt 45
+win98 18
+linuxubuntu 28
+linux 106
+win7 296
+winme 22
+win16 15
+macosx 37
+Unknown 104
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 88
+msie6.0 268
+webcapture 6
+firefox3.6 1
+firefox26.0 1
+firefox2.0.0.1 1
+msie4.01 8
+chrome39.0.2171.95 1
+firefox18.0 86
+firefox34.0 8
+chrome31.0.1650.63 3
+msie8.0 6
+opera7.60 3
+chrome34.0.1847.132 2
+chrome39.0.2171.65 4
+netscape3.0 3
+firefox3.6.1 1
+msie7.0 20
+chrome37.0.2062.120 6
+chrome41.0.2272.89 1
+firefox9.0.1 13
+chrome42.0.2311.152 7
+opera9.0 17
+safari5.1.1 1
+chrome39.0.2171.71 7
+msie5.01 1
+opera7.11 15
+wap 1
+opera9.01 12
+firefox29.0 8
+firefox38.0 34
+firefox7.0.1 10
+chrome32.0.1700.107 24
+chrome35.0.1916.114 2
+netscape0.6 3
+firefox33.0 2
+chrome36.0.1985.143 93
+mozilla 69
+netscape5.0 14
+firefox14.0.1 2
+chrome42.0.2311.135 2
+firefox3.6.3 20
+chrome41.0.2228.0 21
+firefox36.0 15
+firefox35.0 2
+safari 1
+chrome21.0.1180.89 1
+chrome37.0.2062.124 5
+chrome29.0.1547.57 1
+firefox4.0.1 2
+chrome43.0.2357.124 28
+android 3
+chrome43.0.2357.125 5
+chrome41.0.2251.0 28
+chrome22.0.1229.79 3
+opera9.00 12
+msie3.02 5
+safari8.0.6 3
+chrome45.0.2436.5 1
+chrome45.0.2414.0 3
+opera9.80 16
+firefox31.0 4
+netscape4.76 2
+chrome43.0.2357.81 21
+chrome41.0.2272.101 8
+netscape0.91 3
+msie2.0 6
+msie5.0 20
+chrome10.0.648.11 1
+msie9.0 7
+opera7.54 8
+Unknown 79
+chrome11.0.696.68 1
+netscape4.61 5
+firefox17.0 2
+opera8.00 3
+chrome17.0.963.66 1
+chrome36.0.1985.67 7
+opera8.01 3
+msie5.5 59
+chrome36.0.1985.97 1
+netscape4.79 5
+chrome43.0.2357.130 9
+chrome35.0.1916.153 6
+firefox37.0 6
+msie10.0 2
+firefox3.6.12 1
+firebird 1
+chrome23.0.1271.97 28
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Yo-yo 20150606020847
+_---------------_ 20150606071607
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150619174935
+Internet-wide-scan-to-be-removed-from-this-list-email-info-at-binaryedge.io 20150608210118
+|____()___()____| 20150606071607
+()_{_:;};_/bin/bash_-c_\ 20150617133638
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20150618223013
+Mozilla/5.0_Jorgee 20150604161704
+WinInet 20150607170941
+Mozilla/3.0_(compatible;_Indy_Library) 20150620043658
+spray-can/1.3.3 20150606145825
+Microsearch.ru/1.0;_http://microsearch.ru/webmasters 20150611101651
+Go_1.1_package_http 20150630030820
+Microsearch.ru/1.0 20150601154010
+Mozilla/5.0 20150626145249
+Scrapy/0.24.6_(_http://scrapy.org) 20150605203901
+|_______________| 20150606071607
+()_{_:;_};_/bin/bash_-c_\ 20150630013259
+|____(^)_(^)____| 20150606071607
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150617011028
+|____(='.'=)____| 20150606071607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 17
+Yo-yo 20150606020847
+_---------------_ 20150606071607
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150619174935
+Internet-wide-scan-to-be-removed-from-this-list-email-info-at-binaryedge.io 20150608210118
+|____()___()____| 20150606071607
+()_{_:;};_/bin/bash_-c_\ 20150617133638
+WinInet 20150607170941
+spray-can/1.3.3 20150606145825
+Microsearch.ru/1.0;_http://microsearch.ru/webmasters 20150611101651
+Go_1.1_package_http 20150630030820
+Microsearch.ru/1.0 20150601154010
+Scrapy/0.24.6_(_http://scrapy.org) 20150605203901
+()_{_:;_};_/bin/bash_-c_\ 20150630013259
+|_______________| 20150606071607
+|____(^)_(^)____| 20150606071607
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150617011028
+|____(='.'=)____| 20150606071607
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 378 378
+From1 14 14
+From2 11 11
+From3 667 763
+From4 16 74
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 4 4
+bing 1 1
+yandex 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 140
+http://pautina35.ru 26 108
+http://100dollars-seo.com/try.php 25 25
+http://baltkurs.com 16 16
+http://xn--80adaggc5bdhlfamsfdij4p7b.xn--p1ai 13 13
+https://blue-square.biz 12 12
+http://sosdepotdebilan.com 12 12
+http://bif-ru.info 11 11
+http://tinyurl.com/motofest2015 11 11
+http://filmetricsasia.com 11 11
+http://psa48.ru 10 10
+http://aruplighting.com 3 3
+http://novosti-hi-tech.ru 3 3
+http://www.uasb.ru 3 3
+http://autovideobroadcast.com 3 3
+http://viparenda.kz/ru/ 3 3
+http://www.amt-k.ru 9 9
+http://www.moyakuhnia.ru 3 3
+http://media.md 2 2
+http://muscle-factory.com.ua 3 3
+http://mebelcomplekt.ru 6 6
+http://online-hit.info 9 9
+http://bestmobilityscooterstoday.com 3 3
+http://taihouse.ru 6 6
+http://codysbbq.com 3 3
+http://www.rospromtest.ru 6 6
+http://PAUTINA35.RU 3 3
+http://buttons-for-your-website.com 7 7
+http://zastroyka.org 3 3
+http://viktoria-center.ru 9 9
+http://altermix.ua 3 3
+http://stant.pochinika35.ru 0 2
+http://brk-rti.ru 3 3
+http://photokitchendesign.com 5 5
+http://infobabki.ru 3 3
+http://mirtorrent.net 6 6
+http://pornhub-ru.com 3 3
+http://android-style.com 3 3
+http://13630652.videos-for-your-business.com 1 1
+http://pricheski-video.com 6 6
+http://steame.ru 5 5
+http://www.gkvector.ru 3 3
+http://xn----7sbho2agebbhlivy.xn--p1ai 3 3
+http://akv.kz/ru/ 3 3
+http://ktm.afora.ru 1 1
+http://euromasterclass.ru 6 6
+http://www.knigonosha.net 3 3
+http://start.webportal35.ru 0 2
+http://eurosamodelki.ru 3 3
+http://cartechnic.ru 3 3
+http://m1media.net 5 5
+http://hvd-store.com 3 3
+http://pautina35.ru/index.php 2 2
+http://allknow.info 3 3
+http://producm.ru 5 5
+http://anapa-inns.ru 3 3
+http://konkursov.net 5 5
+http://bristolhotel.com.ua 6 6
+http://hundejo.com 2 2
+http://videos-for-your-business.com 3 3
+http://cubook.supernew.org 5 5
+http://pautina35.ru 2 4
+http://seo-smm.kz 3 3
+http://azartclub.org 3 3
+http://www.spravka130.ru 8 8
+http://go.mail.ru/search 1 1
+http://best-seo-offer.com/try.php 1 1
+http://siteripz.net 3 3
+http://sibecoprom.ru 9 9
+http://www.akuhni.by 6 6
+http://ecomp3.ru 7 7
+http://www.promoforum.ru 9 9
+http://ooo-olni.ru 3 3
+http://escort-russian.com 1 1
+http://jjbabskoe.ru 3 3
+http://rapevideosmovies.com 6 6
+http://freewhatsappload.com 5 5
+http://www.germes-trans.com// 2 2
+http://littleberry.ru 9 9
+http://alpharma.net 7 7
+http://success-seo.com/try.php 1 1
+http://PAUTINA35.RU 1 1
+http://semaltmedia.com 3 3
+http://sledstvie-veli.net 3 3
+http://prometeimd.com 3 3
+http://raskrasok.net 3 3
+http://tedxrj.com 5 5
+http://brianjeanmp.net 2 2
+http://laxdrills.com 3 3
+http://baladur.ru 8 8
+http://burger-imperia.com 1 1
+http://doska-vsem.ru 9 9
+http://79.175.42.19 0 2
+http://howopen.ru 3 3
+http://msk.yurgorod.ru 3 3
+http://sady-urala.ru 3 3
+http://handicapvantoday.com 3 3
+http://dostavka-v-krym.com 6 6
+http://toyota.7zap.com 4 4
+http://microsearch.ru/webmasters 8 8
+http://tattooha.com 1 1
+http://www.portnoff.od.ua 3 3
+http://elmifarhangi.com 3 3
+http://avkzarabotok.info 6 6
+http://youporn-ru.com 9 9
+http://bmw.7zap.com 2 2
+http://snart.pochinika35.ru 0 4
+http://www.ringporno.com 6 6
+https://www.qitt.ru 3 3
+http://bizru.info 3 3
+http://aviva-limoux.com 3 3
+http://niki-mlt.ru 6 6
+https://reversing.cc 6 6
+http://0n-line.tv 3 3
+http://allwomen.info 7 7
+http://www.pautina35.ru 3 3
+http://vodaodessa.com 6 6
+http://prointer.net.ua 5 5
+http://1pamm.ru 6 6
+http://bov-market.ru 2 2
+http://forsex.info 5 5
+http://sohoindia.net 3 3
+http://kino-fun.ru 4 4
+http://regidium.ru 7 7
+http://cloud.webportal35.ru 0 2
+http://kino-key.info 6 6
+http://salutmontreal.com 2 2
+http://hazardky.net 3 3
+http://buyantiviralwp.com 3 3
+http://vk.com/away.php 1 1
+http://arkkivoltti.net 3 3
+http://5forex.ru 3 3
+http://goodprotein.ru 5 5
+http://pornoforadult.com 3 3
+http://tobbot.com 8 8
+http://xjrul.com 8 8
+http://xn--90acenikpebbdd4f6d.xn--p1ai 6 6
+http://www.slkrm.ru 3 3
+https://79.175.42.19/webmail/src/login.php 1 1
+http://spb.afora.ru 9 9
+http://minegam.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%bd%d0%be%d1%81%d0%be%d1%80%d0%be%d0%b3 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+%d0%bd%d0%be%d1%81%d0%be%d1%80%d0%be%d0%b3 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 1582 1802262
+206 1 256
+404 98853 48843816
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 389
+/nod/nod0784.nup 4 -
+/nod/nod6A77.nup 1 -
+/db/phpmyadmin/ 3 -
+/admin/config.php 1 -
+/admin.php 20 -
+/license!getExpireDateOfDays.action 2 -
+/nod/nod1B72.nup 2 -
+/nod/nod1F2D.nup 2 -
+/book.pochinika35.ru/index.php 1 -
+/wp-content/plugins/db-backup/download.php 2 -
+/wstat7/ 1 http://BELNOS.ru/wstat7/
+/nod/nod6A00.nup 1 -
+/nod/nod1B30.nup 2 -
+/nod/nod0D79.nup 1 -
+/admin/login 2 -
+/nod/nod12CD.nup 2 -
+/panel/theme/failed.png 1 -
+/nod/nod3C2F.nup 1 -
+/LIVE_VIEW.asp 2 -
+/node/ 4 -
+//admin.php 1 -
+/roundcube/README 1 -
+/nod/nod0A28.nup 1 -
+/search 1 -
+/nod/nod1129.nup 1 -
+/administrator/web/ 3 -
+/html/theme/failed.png 1 -
+/rom-0 2 -
+/nod/nod379F.nup 1 -
+/panel/back.css 1 -
+/nod/nod15C3.nup 2 -
+//wp-login.php 2 -
+/moadmin.php 2 -
+/nod/nod0A06.nup 1 -
+/HNAP1/ 3 -
+/db/db-admin/ 3 -
+/netcat/admin/skins/default/css/style.css 4 -
+/administrator/ 11 -
+/nod/nod650A.nup 1 -
+/nod/nod1730.nup 2 -
+/nod/nod7A4F.nup 4 -
+/wp-login.php 36 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 1 -
+/Panel/back.css 1 -
+/nod/nod46D6.nup 2 -
+/nod/nod5546.nup 2 -
+/wp-content/plugins/revslider/release_log.txt 1 -
+/login.action 2 -
+/login.cgi 1 -
+/nod/nod106C.nup 2 -
+/modules/system/system.base.css 4 -
+/language/en-GB/en-GB.xml 1 -
+/+++++++++++++++++++++++++++++++++++++++++++++++++Result:+%F3%F1%EF%E5%F5+-+%F0%E5%F4%E5%F0%E5%F0+=+http://led-police.ru/+%281%29 1 http://belnos.ru/+++++++++++++++++++++++++++++++++++++++++++++++++Result:+%F3%F1%EF%E5%F5+-+%F0%E5%F4%E5%F0%E5%F0+=+http://led-police.ru/+%281%29
+/nod/nod7C40.nup 4 -
+/nod/nod668D.nup 1 -
+/nod/nod4206.nup 2 -
+/db/webdb/ 3 -
+/userInfoAction.action 2 -
+/rgcb/index.jsp 2 -
+/img/snapshot.cgi 1 -
+/phpbbtt/memberlist.php 4 -
+/nod/nod0205.nup 4 -
+/user/login/ 4 -
+/nod/nod2B09.nup 1 -
+/userAction_loginUI.action 2 -
+/www.zip 1 -
+/PMA/ 3 -
+/phpbbtt/index.php 52 http://pautina35.ru/phpbbtt/index.php
+/users/registrate/ 4 -
+/nod/nod25A4.nup 2 -
+/db/phpMyAdmin3/ 3 -
+/nod/nod0ABE.nup 3 -
+/nod/nod56E0.nup 1 -
+/nod/nod0B3C.nup 4 -
+/wp-admin/images/wordpress-logo.png 4 -
+/roundcubemail/README 1 -
+/nod/nod7A16.nup 1 -
+/nod/nod01D1.nup 2 -
+/build/ 1 -
+/db/dbweb/ 3 -
+/nod/nod1548.nup 1 -
+/var/www/oleg/data/www/book.pochinika35/index.php 1 -
+/var/www/oleg/data/www/book.pochinika35.ru/index.php 15 -
+/nod/nod3892.nup 2 -
+/cache/global/img/gs-2.0.gif 1 -
+/media/system/js/mootools.js 4 -
+/ncsi.txt 1 -
+/nod/nod14B8.nup 1 -
+/user/password/ 4 -
+/nod/nod04AE.nup 1 -
+/nod/nod6205.nup 5 -
+/login!init.action 2 -
+/robots.txt 315 -
+/3phpmyadmin/ 3 -
+/PMA2013/ 3 -
+/nod/nod72FE.nup 2 -
+/nod/nod5E39.nup 1 -
+/cgi-sys/FormMail-clone.cgi 1 -
+/nod/nod614C.nup 1 -
+/db/ 3 -
+/4phpmyadmin/ 3 -
+/wp-admin/ 7 -
+/MyAdmin/ 3 -
+/nod/nod66FB.nup 2 -
+/nod/nod15B6.nup 2 -
+/index.action 2 -
+/netcat/admin/ 4 -
+/nod/nod4EFC.nup 3 -
+/a2billing/customer/javascript/misc.js 1 -
+/2phpmyadmin/ 3 -
+/nod/nod3443.nup 2 -
+/nod/nod13E7.nup 1 -
+/server/theme/failed.png 1 -
+/nod/nod3560.nup 1 -
+/files/Chew-WGA.eXe 1 -
+/nod/nod1C42.nup 1 -
+/nod/nod2AFD.nup 1 -
+/vogs/Plan_burmag27.doc 2 -
+/bitrix/admin/index.php 4 -
+/wp//wp-login.php 1 -
+/nod/nod6AD7.nup 1 -
+/tmp/system.php 1 -
+/wp-content/plugins/plugin-newsletter/preview.php 2 -
+/admin/index.action 2 -
+/nod/nod1EA3.nup 2 -
+/nod/nod149C.nup 1 -
+/nowherereally 1 -
+/nod/nod5E44.nup 2 -
+/cgi-bin/bash 1 ()%20{%20:
+/forcedownload.php 1 http://pautina35.ru/forcedownload.php
+/admin/index.jsp 2 -
+/cgi-bin/login.cgi 1 -
+/typo3/border.html 2 -
+/udp/233.99.61.80:5000 2 -
+/html/30/theme/failed.png 1 -
+/moadmin/moadmin.php 2 -
+/admin/sqladmin/ 3 -
+/cms/lang/ru_utf8/css/sbIndex.css 2 -
+/admin/ 4 -
+/nod/nod6611.nup 1 -
+/bitrix/themes/.default/images/auth_pict.gif 4 -
+/nod/nod137E.nup 1 -
+/nod3518.nup 1 -
+/users/forget/ 4 -
+/videostream.cgi 255 http://ac3414.iview.hk:81/stream.htm
+/nod/nod03F9.nup 5 -
+/nod/nod6D0C.nup 2 -
+/templates/system/css/system.css 4 -
+/oleg/data/www/book.pochinika35.ru/index.php 1 -
+/_/3rdparty/phpMyAdmin/scripts/setup.php 1 -
+/nod/nod4198.nup 2 -
+/redirect.php 1 -
+/blog/ 2 http://pautina35.ru/blog/
+/nod4FDE.nup 1 -
+/modules/system/system.css 4 -
+/cgi-bin/index.cgi 1 ()%20{%20:
+/include/ajax/textPreview.php 2 -
+/nod/nod338E.nup 1 -
+/nod/nod0BA0.nup 3 -
+/nod/nod4736.nup 1 -
+/wp-settings.php 2 -
+/var/www/oleg/data/www/book.pochinika35.ru 1 -
+/js/easy.php 2 -
+/user/soapCaller.bs 2 -
+/img/virtualbox.png 1 -
+/nod/nod0A6D.nup 1 -
+/OvCgi/getnnmdata.exe 1 -
+/db/myadmin/ 3 -
+/db/websql/ 3 -
+/installed 4 -
+/wp-content/plugins/ajax-store-locator-wordpress_/sl_file_download.php 1 -
+/cms/admin/index.php 2 -
+/nod/nod06B2.nup 1 -
+/admin/bootstrap.inc.php 3 -
+/status 3 -
+/mail/config-v1.1.xml 1 -
+/cgi-bin/env.cgi 1 ()%20{%20:
+/webindex/30/theme/failed.png 1 -
+/nod/nod138B.nup 3 -
+/PSIA/Custom/SelfExt/userCheck 2 -
+/administrator/db/ 3 -
+//videostream.cgi 9 http://ac3414.iview.hk:82/stream.htm
+/index!WCIndex.action 2 -
+/news.action 2 -
+/README 1 -
+/nod/nod0F9F.nup 3 -
+/nod/nod42DA.nup 1 -
+/nod/nod18E8.nup 1 -
+/admin/db/ 3 -
+/nod/models/ 1 -
+/nod/nod01E3.nup 3 -
+/phpmyadmin/index.php 2 -
+/login.jsp 2 -
+/ic.asp 1 http://ip138.com/
+/phpshop/admpanel/ 2 -
+/rc/README 1 -
+/db/webadmin/ 3 -
+/admin/content/sitetree/ 4 -
+/nod/nod48D3.nup 3 -
+/assets/index.html 2 -
+/nod/nod745F.nup 1 -
+/nod/nod644F.nup 2 -
+/clientaccesspolicy.xml 2 -
+/nod/nod02BA.nup 1 -
+/1phpmyadmin/ 3 -
+/update.ver 34 -
+/nod/nod21F0.nup 3 -
+/nod/nod5E01.nup 1 -
+/nod/nod4BE5.nup 2 -
+/nod/nod306C.nup 2 -
+/karta-sajta 1 -
+/litecoin/src/bignum.h 1 -
+//MyAdmin/scripts/setup.php 4 -
+/nod/nod3009.nup 2 -
+/admin/phpMyAdmin/ 3 -
+/core/tpl/admin/default.tpl.html 2 -
+/CFIDE/administrator/ 1 -
+/admin/pMA/ 3 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 2 -
+//administrator/index.php 1 -
+/nod/nod6393.nup 3 -
+/administrator/pma/ 3 -
+/nod/nod35F8.nup 2 -
+/cgi-bin/rtpd.cgi 3 -
+/cgi-bin/defaultwebpage.cgi 1 ()%20{%20:
+/nod/nod0CA4.nup 3 -
+/nod/nod18EB.nup 1 -
+/nod/nod0D77.nup 1 -
+/webmail/README 1 -
+/index!OAIndex.action 2 -
+/administrator/admin/ 3 -
+/nod/nod46E9.nup 1 -
+/js/api.js 2 -
+/nod/nod1E53.nup 2 -
+/db/phpMyAdmin-3/ 3 -
+/testproxy.php 79 -
+/dump.sql 1 http://pautina35.ru/dump.sql
+/snapshot.cgi 2 -
+/bitrix/js/main/core/core.css 4 -
+/images/cms/admin/mac/common/butterfly.png 4 -
+/nod08DD.nup 1 -
+/nod/nod7CED.nup 2 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 1 -
+/images/theme/failed.png 1 -
+//pma/scripts/setup.php 4 -
+/nod/nod4B62.nup 2 -
+/netcat/admin/skins/default/css/login.css 4 -
+/mail/README 1 -
+/nod/nod19F7.nup 2 -
+/nod/nod1E84.nup 2 -
+//phpmyadmin/scripts/setup.php 5 -
+/nod/nod07F7.nup 1 -
+/nod/nod1340.nup 2 -
+/litecoin/src/test/base58_tests.cpp 2 -
+/nod/nod3810.nup 1 -
+/nod/nod370B.nup 1 -
+/nod/nod2E20.nup 1 -
+//mysqladmin/scripts/setup.php 1 -
+/nod/nod68D0.nup 1 -
+/wp-admin/admin-ajax.php 3 -
+/admin/phpmyadmin/ 3 -
+/nod/nod1CA9.nup 2 -
+//sqladmin/scripts/setup.php 1 -
+/nod/nod2D72.nup 1 -
+/blog//wp-login.php 1 -
+//myadmin/scripts/setup.php 4 -
+/tmUnblock.cgi 1 -
+/nod/nod5874.nup 1 -
+/nod/nod3C88.nup 1 -
+/styles/skins/mac/design/css/style.css 4 -
+//dbadmin/scripts/setup.php 1 -
+/nod/nod235E.nup 1 -
+/administrator/index.php 18 -
+/index!download.action 2 -
+/cgi-bin/hello.cgi 1 ()%20{%20:
+/nod/nod062E.nup 5 -
+/nod/nod6403.nup 2 -
+/nod/nod3021.nup 1 -
+/nod/nod4E80.nup 2 -
+/phpadmin/ 1 -
+/nod/models/update.php 1 -
+/admin/web/ 3 -
+/index!execute.action 2 -
+/bitrix/admin/ 7 -
+/nod2/nod335D.nup 1 -
+/admin/sysadmin/ 3 -
+/unAuthorizedAccess.action 2 -
+/pt.php 1 http://www-w.bigmir.net/
+/partner 1 -
+/nod/nod3D94.nup 1 -
+/freepbx/admin/config.php 1 -
+/sitemap.xml 4 -
+/nod/ 63 -
+/project/ 1 -
+//scripts/setup.php 1 -
+/www.tar.gz 1 -
+/contacts 1 -
+/hostcmsfiles/main.js 2 -
+/admin/login.php 1 -
+/PMA2012/ 3 -
+/js/admin.js 2 -
+/includes/init.php 2 -
+/nod/nod6A0E.nup 1 -
+/nod/nod354C.nup 3 -
+/dnscfg.cgi 1 -
+/admin/index.php 3 -
+/payment/pay.cgi 1 -
+/nod/nod2C7B.nup 1 -
+/PMA2015/ 3 -
+/images/install/theme/failed.png 1 -
+//phpadmin/scripts/setup.php 1 -
+/nod/nod4B0F.nup 1 -
+/kvartiri-v-vologde/ 1 -
+/administrator/phpmyadmin/ 3 -
+/nod/nod4190.nup 1 -
+/30/theme/failed.png 1 -
+/password.cgi 1 -
+/registration/ 2 -
+/yii/demos/blog/index.php/post/index 4 -
+/wp-content/ 4 -
+/nod/nod7937.nup 1 -
+/htmlindex/30/theme/failed.png 1 -
+/phpmyadmin/ 2 -
+/wp-content/themes/twentytwelve/system.php 1 -
+/db/phpmyadmin3/ 3 -
+/cgi-bin/forum.cgi 1 ()%20{%20:
+/vtigercrm/LICENSE.txt 1 -
+/db/dbadmin/ 3 -
+/payment/ 2 -
+/PMA2014/ 3 -
+/nod/nod6459.nup 2 -
+/wp-content/plugins/filedownload/download.php/ 1 -
+/nod/nod6352.nup 2 -
+/nod/nod1EC0.nup 1 -
+/cgi-bin/fire.cgi 1 ()%20{%20:
+/administrator/PMA/ 3 -
+//web/scripts/setup.php 1 -
+/cooperation 1 -
+/cgi-bin/test-cgi 1 -
+/nod/nod7D84.nup 6 -
+/phpMoAdmin/moadmin.php 2 -
+/nod/nod6179.nup 1 -
+/nod/nod211C.nup 3 -
+/nod/nod66EB.nup 1 -
+/cgi/maker/ptcmd.cgi 2 -
+/nod/nod34A1.nup 3 -
+/hndUnblock.cgi 1 -
+/nod/nod713F.nup 1 -
+/PMA2011/ 3 -
+/database/ 3 -
+/plugins/system/anticopy/anticopy.php 1 -
+/phpmyadmin/scripts/setup.php 4 -
+/netcat/admin/skins/default/img/logo.png 4 -
+/nod/nod5268.nup 2 -
+/muieblackcat 4 -
+/nod/nod2215.nup 1 -
+/nod/nod7D75.nup 1 -
+/litecoin/src/test/multisig_tests.cpp 6 -
+/admin/install!license.action 2 -
+/wp-content/themes/twentythirteen/system.php 1 -
+//3rdparty/phpMyAdmin/scripts/setup.php 1 -
+/nice%20ports%2C/Tri%6Eity.txt%2ebak 1 -
+/bitrix/themes/.default/adminstyles.css 4 -
+/wp-content/force-download.php 2 -
+/db/phpMyAdmin/ 3 -
+/user/ 1 -
+/siteEnter.action 2 -
+/nod/nod1311.nup 2 -
+/nod/nod14FC.nup 2 -
+/login.xml 18 -
+/nod/nod5CE8.nup 1 -
+/update.sh 1 -
+/administrator/phpMyAdmin/ 3 -
+/nod/nod3D50.nup 1 -
+/nod/nod1D21.nup 1 -
+/nod/nod03CF.nup 4 -
+/nod/nod6AAC.nup 2 -
+/nod/nod1B0F.nup 1 -
+/wp-admin/css/wp-admin.css 4 -
+/manager/html 1 -
+/litecoin/src/leveldb/port/port_win.h 3 -
+/wordpress//wp-login.php 1 -
+/nod/update.ver 97156 -
+//mysql/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 5 -
+/cgi-bin/contact.cgi 1 ()%20{%20:
+/nod/nod4EE5.nup 1 -
+/files/ 23 -
+/dbadmin/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 259
+178.137.84.254 127 127 178229 20150621193651
+94.153.10.249 124 124 173888 20150621193652
+94.153.9.220 116 116 162772 20150622142314
+217.69.133.169 85 85 80140 20150630192223
+46.118.239.173 33 33 46326 20150622130417
+37.115.189.89 33 33 46596 20150629214423
+176.8.91.130 30 30 42360 20150629092148
+109.234.156.66 28 28 39326 20150630070344
+178.137.84.13 26 26 36712 20150629011450
+79.175.42.84 24 24 22509 20150630085108
+37.139.52.23 5 5 6985 20150603035523
+69.194.230.27 2 2 2824 20150614114646
+45.55.133.233 1 1 931 20150610040243
+54.161.143.59 1 1 1412 20150622223950
+213.176.224.20 1 3 539808 20150605100830
+178.63.19.198 2 2 1892 20150626145249
+176.65.126.8 1 3 539823 20150622114231
+62.109.27.164 8 8 7478 20150622020415
+54.170.173.93 1 1 946 20150619211324
+62.109.26.168 10 10 9355 20150629043949
+182.118.55.193 1 1 931 20150605031814
+182.118.53.168 1 1 946 20150619013529
+108.95.190.161 2 2 9036 20150603153058
+5.164.227.134 1 1 1412 20150615090740
+188.42.240.119 2 2 2824 20150621040400
+93.170.186.121 8 8 11206 20150619000747
+94.242.246.24 1 1 931 20150608091928
+5.200.53.174 1 1 1412 20150625190748
+31.23.175.40 1 1 1412 20150621083709
+82.146.62.80 7 7 6592 20150626070122
+46.101.166.175 1 1 931 20150609223855
+78.36.191.136 1 3 539823 20150630100545
+187.109.177.123 1 3 539823 20150630184958
+182.118.53.149 1 1 931 20150603014559
+195.239.209.118 2 6 1079646 20150629104213
+187.85.33.18 1 3 539823 20150615211208
+184.95.40.147 1 1 1397 20150614043227
+180.191.119.6 1 3 539808 20150609105747
+188.186.17.188 1 1 1412 20150620035558
+182.118.53.154 1 1 946 20150614202259
+177.35.225.99 1 3 539823 20150615222505
+176.59.2.166 1 3 539823 20150622131303
+188.165.206.188 1 1 946 20150619213525
+104.155.35.111 7 7 9779 20150605182524
+176.126.50.102 1 3 539823 20150620105701
+93.172.182.91 1 1 1412 20150630221936
+92.101.170.254 2 4 540072 20150622104202
+41.136.160.198 1 3 539823 20150616111505
+182.118.45.218 2 2 1892 20150629032714
+46.165.201.42 1 1 1412 20150620043658
+45.55.133.225 1 1 946 20150626104315
+24.34.59.156 1 3 539823 20150618130319
+191.242.51.221 1 3 397688 20150621040215
+94.181.180.194 2 2 2824 20150627150800
+61.240.144.64 1 1 1412 20150615164734
+93.125.49.13 1 1 1412 20150627150012
+94.23.19.207 2 2 2824 20150617011028
+178.69.154.65 1 3 539823 20150629143548
+89.208.147.138 7 7 6562 20150627233114
+77.93.100.251 1 3 539808 20150605213530
+82.146.36.211 3 3 2793 20150611003932
+182.118.60.65 1 1 946 20150623020937
+182.118.53.209 1 1 946 20150617012535
+31.25.240.93 1 1 1412 20150614160404
+54.145.87.183 1 1 1397 20150605085827
+182.118.53.246 1 1 931 20150613015842
+176.9.38.197 9 9 12648 20150630145644
+176.9.21.214 4 4 3784 20150626120130
+54.166.192.77 1 1 1397 20150605100933
+212.129.61.237 1 1 1397 20150610125634
+187.114.165.66 1 3 539808 20150608211242
+193.201.227.47 2 2 2824 20150629114232
+187.74.104.180 1 3 279976 20150628232942
+169.54.233.118 1 1 1397 20150607195351
+54.217.126.182 1 1 946 20150627043319
+217.12.204.104 1 1 946 20150629010142
+95.72.142.35 1 1 946 20150621165717
+109.120.189.37 3 3 4191 20150605181823
+109.234.35.172 1 1 946 20150630014444
+171.96.244.97 1 3 539808 20150609163721
+149.3.111.236 1 3 539808 20150610214128
+43.245.141.150 1 3 539808 20150614055618
+178.236.130.69 1 1 1412 20150625150734
+78.36.163.236 1 3 539808 20150605175200
+80.89.138.30 1 1 1397 20150610171945
+45.55.229.156 1 1 931 20150604201915
+109.186.63.166 1 1 1412 20150615063305
+182.118.60.93 1 1 946 20150617010232
+94.102.50.45 1 1 1412 20150618224341
+213.136.64.63 1 1 1412 20150626060918
+2.132.247.64 1 1 1397 20150602215816
+5.9.37.121 2 2 2824 20150618221258
+70.45.61.164 1 3 539808 20150612201815
+74.208.167.71 1 1 1397 20150613053757
+87.117.49.108 1 1 1412 20150623075249
+223.252.35.159 1 1 1397 20150614010658
+87.117.189.192 1 1 931 20150603184145
+176.15.112.93 1 3 539823 20150616191509
+192.168.200.200 6 14 2161889 20150623192144
+182.118.53.219 1 1 946 20150630200424
+188.127.237.65 2 2 1862 20150603014704
+5.104.175.234 2 2 1892 20150629222139
+5.104.175.207 5 5 4715 20150627062618
+178.32.219.105 2 2 1892 20150619052651
+95.82.245.106 1 1 931 20150610175335
+208.115.124.147 1 1 1397 20150611040806
+54.157.188.75 1 1 1397 20150610194710
+213.165.70.245 1 1 1412 20150617133638
+182.118.60.42 1 1 946 20150623014629
+178.64.153.134 1 3 539823 20150614160052
+94.181.202.8 1 1 1412 20150627074536
+109.239.24.218 2 2 1892 20150616182859
+131.108.158.2 1 3 539808 20150610175124
+120.132.77.184 4 4 3784 20150621171154
+217.174.155.65 1 1 946 20150616022235
+54.170.67.151 1 1 946 20150626042327
+188.40.45.131 4 4 3724 20150605203901
+186.235.99.84 1 3 379993 20150612042007
+200.141.153.212 1 3 539808 20150603171530
+95.53.191.31 1 3 539808 20150608101036
+193.201.227.22 3 3 4206 20150619205853
+93.159.230.89 1 1 946 20150619181130
+82.146.63.123 7 7 6592 20150630030820
+37.57.212.66 1 1 946 20150621154714
+109.120.157.179 9 9 12618 20150618223013
+182.118.53.70 1 1 931 20150608203223
+37.115.185.94 2 2 2794 20150601123956
+173.193.138.66 2 2 9036 20150604130206
+212.33.255.53 1 1 1397 20150603171239
+46.235.69.103 1 1 946 20150623064738
+178.210.65.242 2 2 2794 20150611124722
+5.164.192.215 1 1 1397 20150601065442
+176.108.146.5 1 3 539823 20150619225620
+75.167.206.77 1 3 539808 20150603081058
+37.229.128.45 1 1 1397 20150605105318
+213.176.245.2 1 1 249 20150620003019
+109.170.151.106 1 1 931 20150613130410
+78.36.185.160 1 3 539823 20150625222400
+94.198.98.67 1 1 946 20150625100321
+195.154.184.40 2 2 1892 20150622035934
+213.239.198.213 1 1 946 20150629082309
+187.6.26.40 1 3 539808 20150605190358
+95.53.169.151 1 3 539823 20150619153635
+93.142.196.3 1 3 539823 20150617142835
+176.36.52.108 1 1 931 20150612160544
+177.40.161.44 1 3 539823 20150629031651
+89.138.31.16 1 1 1397 20150612142652
+193.169.52.67 1 1 931 20150613053219
+182.118.53.129 1 1 931 20150607014150
+46.118.228.151 15 15 21180 20150629131947
+91.234.35.64 1 1 946 20150619121842
+171.25.193.77 1 1 931 20150608022908
+194.177.22.82 16 16 22592 20150623100942
+82.80.216.6 3 3 4236 20150623073544
+182.118.60.41 1 1 931 20150612205350
+83.245.246.46 1 3 539823 20150622131556
+193.106.31.176 1 1 931 20150614000622
+159.224.33.55 1 1 946 20150622121121
+37.182.102.42 1 3 539808 20150613211350
+176.65.125.4 1 3 539823 20150618190120
+142.54.165.138 1 1 946 20150630143854
+159.20.134.69 1 3 539808 20150606230700
+201.132.195.197 1 3 539823 20150627014734
+5.139.100.103 1 1 931 20150604145856
+62.109.10.18 2 2 1862 20150609164511
+177.16.65.72 1 3 539808 20150605021704
+117.211.40.39 1 3 539823 20150627083233
+217.71.44.101 1 3 539808 20150607003907
+78.15.124.227 1 3 539808 20150607202334
+176.8.78.150 1 3 539823 20150614204024
+38.100.21.69 1 1 1412 20150617192646
+89.248.160.196 1 1 1412 20150630125524
+182.118.53.38 1 1 946 20150616201848
+213.176.245.227 1 3 539823 20150618230413
+89.138.45.11 1 1 1412 20150629175159
+89.105.159.219 1 1 931 20150610011044
+93.81.109.155 1 1 946 20150630095528
+62.210.122.123 1 1 946 20150619223916
+176.110.126.170 8 12 1085322 20150622151137
+104.236.81.82 1 1 946 20150630164257
+95.234.72.40 1 3 539823 20150622193123
+117.207.80.23 1 3 85228 20150627062511
+78.46.96.19 14 14 19648 20150622170627
+93.79.184.167 1 1 1397 20150612143707
+63.141.251.235 1 1 946 20150622085904
+62.210.37.113 3 3 2838 20150615050740
+37.49.169.166 1 1 931 20150612182904
+182.118.53.136 1 1 931 20150609031032
+176.65.126.3 2 4 540769 20150617231956
+176.65.124.1 1 3 539823 20150620094701
+54.173.202.108 1 1 1412 20150617102741
+178.64.152.111 1 3 539823 20150620190057
+81.23.106.194 1 3 539823 20150616102355
+182.118.53.86 1 1 946 20150615003034
+24.44.82.210 1 3 539823 20150622232400
+182.118.45.229 1 1 931 20150610213153
+178.137.153.210 1 1 1412 20150614224228
+120.132.77.252 2 2 1862 20150601122720
+142.54.165.140 1 1 946 20150629160656
+194.58.90.30 14 14 2660 20150606071607
+37.72.68.50 1 3 539823 20150615114827
+94.23.217.201 2 2 1892 20150614174329
+95.132.119.19 2 2 2824 20150618113934
+91.233.173.90 3 3 4191 20150607120803
+95.79.131.173 1 1 1397 20150613220429
+182.118.54.12 1 1 946 20150627031542
+176.15.111.142 1 3 539823 20150630195839
+31.193.196.98 13 13 18356 20150630045340
+79.154.144.228 1 3 539808 20150612123149
+5.39.216.121 2 2 2794 20150608210118
+77.234.42.45 1 1 1397 20150606145825
+93.81.120.143 1 1 946 20150627145657
+109.226.203.69 1 1 1412 20150627083824
+87.196.169.89 1 1 1397 20150607170941
+189.107.96.132 1 3 539808 20150609234111
+54.87.115.13 1 1 1412 20150626110406
+61.94.46.229 1 3 540289 20150627173511
+176.65.102.167 1 3 539823 20150622133205
+182.118.54.49 1 1 946 20150628192232
+189.217.195.111 1 3 539808 20150605034952
+182.118.55.191 1 1 946 20150622200458
+199.217.117.90 7 7 6592 20150628113702
+85.250.79.218 1 1 1412 20150614124309
+63.141.251.188 1 1 931 20150601150646
+54.166.92.18 1 1 1412 20150622172158
+89.31.57.5 2 2 1862 20150602234718
+89.138.208.41 1 1 1397 20150602082936
+63.141.253.228 1 1 931 20150602060448
+182.118.60.37 1 1 946 20150626212112
+52.17.199.51 1 1 931 20150602070735
+76.74.97.4 1 1 1412 20150625103352
+178.64.142.61 1 3 539823 20150621093022
+169.54.233.117 1 1 1412 20150617140947
+176.114.202.212 1 1 931 20150605124034
+186.250.88.4 1 3 539808 20150607051301
+58.213.123.107 1 1 1412 20150626234512
+178.62.105.72 1 1 931 20150610012254
+109.120.189.65 5 5 6985 20150611101651
+37.229.131.65 1 1 1412 20150629183821
+198.71.227.11 2 2 9036 20150604161704
+182.118.54.88 1 1 931 20150606202545
+113.11.197.233 1 1 1412 20150630013259
+189.79.93.72 1 3 539823 20150628221422
+5.39.222.253 1 1 1412 20150619174935
+1.234.46.205 2 2 2824 20150615234906
+141.101.132.195 1 1 931 20150613131638
+176.65.125.8 1 3 539823 20150623093948
+213.154.177.16 1 3 540274 20150604152106
+46.214.149.2 1 3 539808 20150605212707
+182.118.53.206 2 2 1862 20150611005611
+31.29.240.195 1 1 1397 20150610003701
+193.236.69.194 1 3 539823 20150619174058
+78.25.121.99 1 1 931 20150601164400
+5.19.138.13 2 2 1862 20150606020847
+182.118.54.56 1 1 931 20150604214641
+182.118.53.150 1 1 946 20150620192037
+200.218.183.250 1 3 539823 20150626150743
+93.159.230.88 1 1 931 20150605165851
+201.82.29.234 1 3 539823 20150617180843
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20150601 29 29 36573 19
+20150602 30 30 30665 16
+20150603 41 45 1137079 23
+20150604 25 27 583490 15
+20150605 54 68 3839655 30
+20150606 30 32 569542 15
+20150607 37 43 1665058 20
+20150608 23 27 1106157 16
+20150609 55 61 1680418 23
+20150610 39 43 1127577 25
+20150611 25 25 33527 14
+20150612 42 48 1510830 24
+20150613 29 31 575196 19
+20150614 50 56 1680362 26
+20150615 54 60 1680297 23
+20150616 36 44 2200748 19
+20150617 41 51 2744821 27
+20150618 38 44 1665161 21
+20150619 43 49 1671755 29
+20150620 40 46 1669152 21
+20150621 42 46 991195 21
+20150622 56 76 5455029 35
+20150623 24 28 1106516 16
+20150625 14 16 557247 8
+20150626 42 44 592123 24
+20150627 36 44 1747085 24
+20150628 38 42 865971 19
+20150629 39 45 1662379 24
+20150630 34 40 1651591 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 6
+30s-2mn 2
+2mn-5mn 2
+15mn-30mn 7
+0s-30s 586
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 1073 1322876 611 609
+/myadmin/ 6 27108 3 3
+/index.php 4 5633 1 3
+http://www.google.com/ 2 2794 2 2
+/webmail/src/webmail.php 1 1651 1 1
+END_SIDER

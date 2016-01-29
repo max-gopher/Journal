@@ -1,0 +1,7 @@
+User-agent: Yandex
+Disallow: /
+
+Host: book.pochinika35.ru
+
+User-agent: *
+Disallow: /
